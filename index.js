@@ -1,5 +1,7 @@
 import inquirer from 'inquirer';
 import chalk from 'chalk';
+import figlet from 'figlet';
+console.log(chalk.yellowBright(figlet.textSync("Ali's Typing Test", { horizontalLayout: 'full' })));
 const users = []; // Here I actually create the array of users and they will continue to fill as the users start registering.
 let currentUser = null; // Before logging in, the current user will be set to null and after logging in, it will be set to that respective user.
 const signup = async () => {

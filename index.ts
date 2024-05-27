@@ -1,6 +1,8 @@
 import inquirer from 'inquirer';
 import chalk from 'chalk';
+import figlet from 'figlet';
 
+console.log(chalk.yellowBright(figlet.textSync("Ali's Typing Test", {horizontalLayout: 'full'})))
 interface User {
     name: string;
     email: string;                                                  // Here i define types for the elements in the User Array
